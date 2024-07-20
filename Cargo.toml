@@ -1,0 +1,20 @@
+[package]
+name = "serverworks"
+description = "A library that makes creating a server easy and uncomplicated."
+version = "0.0.1"
+authors = [ "João Fernandes <0rangeFox@saphirex.pt>" ]
+
+keywords = [ "game", "modular", "network", "server" ]
+categories = [ "game-development", "network-programming" ]
+
+homepage = "https://github.com/0rangeFox/SERVERWORKS"
+repository = "https://github.com/0rangeFox/SERVERWORKS"
+readme = "README.md"
+license = "MIT"
+
+include = [ "src/**/*.rs", "Cargo.toml", "LICENSE", "README.md" ]
+
+edition = "2021"
+rust-version = "1.56.0"
+
+[dependencies]
